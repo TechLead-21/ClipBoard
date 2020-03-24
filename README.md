@@ -31,6 +31,8 @@ First, include the script located on the dist folder or load it from a third-par
 <script src="dist/clipboard.min.js">  </script>
 ```
 Now, you need to instantiate it by passing a DOM selector, HTML element, or list of HTML elements.
-```javascript
+```
+
 new ClipboardJS('.btn');
+
 ```
