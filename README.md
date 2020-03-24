@@ -21,17 +21,16 @@ Or if you're not into package management, just download a ZIP file.
 OR :
 🚩 Third party CDN
 👉 ```
-<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js">  </script>
 ```
 <br>
 🤷‍♂️ Setup
 First, include the script located on the dist folder or load it from a third-party CDN provider.
 
 ```
-<script src="dist/clipboard.min.js"></script>
+<script src="dist/clipboard.min.js">  </script>
 ```
 Now, you need to instantiate it by passing a DOM selector, HTML element, or list of HTML elements.
-
-new ```javascript
-ClipboardJS('.btn');
+```javascript
+new ClipboardJS('.btn');
 ```
